@@ -126,7 +126,7 @@ abstract class Scheduler implements Runnable {
     }
 }
 
-// Algoritmalar (Constructor'ları güncellendi)
+// Algoritmalar (Constructor'ları güncellendi.)
 
 class FCFS extends Scheduler {
     public FCFS(List<Process> processes, String scenario) { super(processes, "FCFS", scenario); }
