@@ -349,7 +349,7 @@ public class Odev1Main {
         runScenario("odev1_case2.txt", "Case2"); // İkinci dosyanın adının bu olduğundan emin olun!
     }
 
-    // Tek bir dosya için tüm durumu çalıştıran metot
+    // Tek bir dosya için tüm durumu çalıştıran metot.
     public static void runScenario(String filename, String scenarioName) {
         List<Process> allProcesses = new ArrayList<>();
 
